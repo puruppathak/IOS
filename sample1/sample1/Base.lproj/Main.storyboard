@@ -159,7 +159,6 @@
                                 </state>
                                 <connections>
                                     <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kgv-Eb-VlV"/>
-                                    <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jka-Y5-O6h"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -37,7 +37,18 @@ class ViewController: UIViewController {
 
     @IBAction func performOperation(_ sender: UIButton) {
         
-        
+        if let mathematicalSymbol = sender.currentTitle {
+            
+            switch mathematicalSymbol {
+                
+            case "π" : display!.text = String(Double.pi)
+               
+            default:
+                break
+                
+            }
+            
+        }
         
         
     }
