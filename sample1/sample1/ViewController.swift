@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func performOperation(_ sender: UIButton) {
-        
+        UserinTheMiddleOfTyping = false
         if let mathematicalSymbol = sender.currentTitle {
             
             switch mathematicalSymbol {
