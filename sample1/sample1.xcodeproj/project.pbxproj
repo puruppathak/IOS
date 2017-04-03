@@ -74,6 +74,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8ED9B29B1E92E54200D29F13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A4A2D591E91B9D5005D61AD /* AppDelegate.swift */,
+				9A4A2D621E91B9D5005D61AD /* LaunchScreen.storyboard */,
+				9A4A2D651E91B9D5005D61AD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		9A4A2D4D1E91B9D5005D61AD = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +107,10 @@
 		9A4A2D581E91B9D5005D61AD /* sample1 */ = {
 			isa = PBXGroup;
 			children = (
-				9A4A2D591E91B9D5005D61AD /* AppDelegate.swift */,
+				8ED9B29B1E92E54200D29F13 /* Supporting Files */,
 				9A4A2D5B1E91B9D5005D61AD /* ViewController.swift */,
 				9A4A2D5D1E91B9D5005D61AD /* Main.storyboard */,
 				9A4A2D601E91B9D5005D61AD /* Assets.xcassets */,
-				9A4A2D621E91B9D5005D61AD /* LaunchScreen.storyboard */,
-				9A4A2D651E91B9D5005D61AD /* Info.plist */,
 			);
 			path = sample1;
 			sourceTree = "<group>";
@@ -505,6 +513,7 @@
 				9A4A2D801E91B9D5005D61AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A4A2D811E91B9D5005D61AD /* Build configuration list for PBXNativeTarget "sample1Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				9A4A2D831E91B9D5005D61AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A4A2D841E91B9D5005D61AD /* Build configuration list for PBXNativeTarget "sample1UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				9A4A2D861E91B9D5005D61AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

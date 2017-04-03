@@ -60,6 +60,8 @@ class ViewController: UIViewController {
             case "√" : displayValue = sqrt(displayValue)
              
             case "C" : display.text = String("0")
+                
+                
             
             default:
                 break
