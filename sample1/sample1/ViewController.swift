@@ -33,7 +33,21 @@ class ViewController: UIViewController {
         
     }
     
-    
+    var displayValue: Double {
+        
+        get {
+            
+            return Double(display.text!)!
+            
+        }
+        set {
+            
+            display.text = String(newValue)
+            
+        }
+        
+        
+    }
     
     @IBAction func performOperation(_ sender: UIButton) {
         
@@ -41,10 +55,9 @@ class ViewController: UIViewController {
             
             switch mathematicalSymbol {
                 
-            case "π" : display.text = String(Double.pi)
+            case "π" : displayValue = Double.pi
                 
-            case "√" : let operand = Double(display.text!)!
-            display.text = String(sqrt(operand))
+            case "√" : displayValue = sqrt(displayValue)
                 
             default:
                 break
