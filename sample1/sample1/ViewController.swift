@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    @IBOutlet weak var display: UILabel?
+    @IBOutlet weak var display: UILabel!
     
     var UserinTheMiddleOfTyping = false
     
@@ -19,14 +19,14 @@ class ViewController: UIViewController {
         
         let digit = sender.currentTitle!
         if UserinTheMiddleOfTyping{
-            let textCurrentlyInDisplay = display!.text!
-            display!.text = textCurrentlyInDisplay+digit
+            let textCurrentlyInDisplay = display.text!
+            display.text = textCurrentlyInDisplay+digit
         }
             
         else
             
         {
-            display!.text = digit
+            display.text = digit
             UserinTheMiddleOfTyping=true
             
         }
@@ -41,10 +41,10 @@ class ViewController: UIViewController {
             
             switch mathematicalSymbol {
                 
-            case "π" : display!.text = String(Double.pi)
+            case "π" : display.text = String(Double.pi)
                 
-            case "√" : let operand = Double(display!.text!)!
-            display!.text = String(sqrt(operand))
+            case "√" : let operand = Double(display.text!)!
+            display.text = String(sqrt(operand))
                 
             default:
                 break
