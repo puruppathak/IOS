@@ -58,7 +58,9 @@ class ViewController: UIViewController {
             case "π" : displayValue = Double.pi
                 
             case "√" : displayValue = sqrt(displayValue)
-                
+             
+            case "C" : display.text = String("0")
+            
             default:
                 break
                 
