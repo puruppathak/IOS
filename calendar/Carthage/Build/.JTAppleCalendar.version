@@ -1,0 +1,22 @@
+{
+  "commitish" : "16c5b49f9793746d641f05b20ef730bcee745bcc",
+  "iOS" : [
+    {
+      "hash" : "1f63566e257bed77be4663f14ae6e35ffcd571cd9e2814a2f6848f4d43038c83",
+      "name" : "JTAppleCalendar"
+    }
+  ],
+  "xcodeVersion" : "Xcode 8.3\nBuild version 8E162",
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "hash" : "ca5eb9e4488b1baff303ba51878c482a1fc432f362a528917a092fa5cccc49e0",
+      "name" : "JTAppleCalendar"
+    }
+  ],
+  "Mac" : [
+
+  ]
+}
