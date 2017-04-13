@@ -39,5 +39,10 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("Hello")
+    }
+    
+    
 }
 
